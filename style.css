@@ -66,12 +66,98 @@ main{
 }
 
 main .tamanho{
-    width: 30%;
+    width: 23%;
     height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.tamanho .ocupacao-form{
+    width: 80%;
 }
 
 main .titulo{
     text-align: center;
-    margin: 20px 0px;
+    margin: 30px 0px;
     color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.nome p{
+    margin: 30px 0px 5px 0px;
+}
+
+.nome p label{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+
+.nome input{
+    width: 95%;
+    height: 20px;
+    padding: 5px;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.116);
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+}
+
+.senha p{
+    margin: 30px 0px 5px 0px;
+}
+
+.senha p label{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.senha input{
+    width: 95%;
+    height: 20px;
+    padding: 5px;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.116);
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+}
+
+.login input{
+    width: 70%;
+    height: 35px;
+    margin: 50px 0px 0px 0px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.login input:hover{
+    transform: scale(1.01);
+    transition: .4s;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+.esqueceusenha{
+    text-align: center;
+    color: black;
+}
+
+.esqueceusenha a{
+    color: rgba(0, 0, 255, 0.349);
+    text-decoration: none;
+}
+
+.esqueceusenha a:hover{
+    text-decoration: underline;
 }
