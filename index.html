@@ -33,10 +33,14 @@
                 <form action="form.php" method="post" autocomplete="on">
                     <div class="nome">
                             <p><label for="iname">Username</label></p>
-                            <div><input type="text" name="name" id="iname" required></div>
+
+                            <div><input type="text" name="name" id="iname" required maxlength="30"></div>
+
                     <div class="senha">
                             <p><label for="isenha">Password</label></p>
-                            <div><input type="password" name="password" id="isenha" required></div>
+
+                            <div><input type="password" name="password" id="isenha" min="8" max="15" required></div>
+
                     </div>
                     <div class="login"><input type="submit" value="Login"></div>
                     <p class="esqueceusenha">

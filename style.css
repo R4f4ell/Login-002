@@ -105,7 +105,9 @@ main .titulo{
     background-color: rgba(128, 128, 128, 0.116);
     font-size: 18px;
     border-radius: 15px;
-    border: none;
+    border: none; /* Remove todas as bordas */
+    border-bottom: 3px solid #0000002f; /* Adiciona uma borda na parte inferior */
+    outline: none; /* Remove a borda de foco padrão */
 }
 
 .senha p{
@@ -126,6 +128,9 @@ main .titulo{
     font-size: 18px;
     border-radius: 15px;
     border: none;
+    border: none; /* Remove todas as bordas */
+    border-bottom: 3px solid #0000002f; /* Adiciona uma borda na parte inferior */
+    outline: none; /* Remove a borda de foco padrão */
 }
 
 .login{
